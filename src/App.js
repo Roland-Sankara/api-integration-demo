@@ -44,6 +44,7 @@ function App() {
 
   return (
     <div className="App">
+     <h1>Continuous Deployment</h1>
      <h1>Counter App</h1>
      <p>{quote}</p>
      <input type="number" value={count} onChange={countChanged}/>
